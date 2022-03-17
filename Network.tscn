@@ -1,0 +1,74 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Network.gd" type="Script" id=1]
+
+[node name="Network" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" type="VBoxContainer" parent="CanvasLayer"]
+anchor_right = 1.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = -10.0
+margin_bottom = 296.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/Control"]
+margin_right = 1004.0
+margin_bottom = 24.0
+
+[node name="ServerButton" type="Button" parent="CanvasLayer/Control/HBoxContainer"]
+margin_right = 85.0
+margin_bottom = 24.0
+text = "Start Server"
+
+[node name="ClientButton" type="Button" parent="CanvasLayer/Control/HBoxContainer"]
+margin_left = 89.0
+margin_right = 171.0
+margin_bottom = 24.0
+text = "Start Client"
+
+[node name="SendButton" type="Button" parent="CanvasLayer/Control/HBoxContainer"]
+margin_left = 175.0
+margin_right = 218.0
+margin_bottom = 24.0
+text = "Send"
+
+[node name="Label" type="Label" parent="CanvasLayer/Control/HBoxContainer"]
+margin_left = 222.0
+margin_right = 611.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = "IP:"
+align = 2
+valign = 1
+
+[node name="TextEdit" type="LineEdit" parent="CanvasLayer/Control/HBoxContainer"]
+margin_left = 615.0
+margin_right = 1004.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Status" type="TextEdit" parent="CanvasLayer/Control"]
+margin_top = 28.0
+margin_right = 1004.0
+margin_bottom = 240.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Log" type="Label" parent="CanvasLayer/Control"]
+margin_top = 244.0
+margin_right = 1004.0
+margin_bottom = 258.0
+text = "Escreva em baixo"
+
+[node name="LineEdit" type="LineEdit" parent="CanvasLayer/Control"]
+margin_top = 262.0
+margin_right = 1004.0
+margin_bottom = 286.0
