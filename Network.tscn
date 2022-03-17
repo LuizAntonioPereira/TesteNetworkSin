@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Network.gd" type="Script" id=1]
+[ext_resource path="res://Controles.gd" type="Script" id=1]
 
 [node name="Network" type="Node2D"]
 
@@ -72,3 +72,6 @@ text = "Escreva em baixo"
 margin_top = 262.0
 margin_right = 1004.0
 margin_bottom = 286.0
+[connection signal="button_up" from="CanvasLayer/Control/HBoxContainer/ServerButton" to="CanvasLayer/Control" method="_on_ServerButton_button_up"]
+[connection signal="button_up" from="CanvasLayer/Control/HBoxContainer/ClientButton" to="CanvasLayer/Control" method="_on_ClientButton_button_up"]
+[connection signal="text_entered" from="CanvasLayer/Control/LineEdit" to="CanvasLayer/Control" method="_on_LineEdit_text_entered"]
