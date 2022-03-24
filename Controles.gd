@@ -1,6 +1,10 @@
 extends VBoxContainer
 
+func _ready():
+  Network.connect("emite_text", self, "update_text")  
 
+func update_text(text):
+  $Status.text += text
 
 func _on_ServerButton_button_up():
 	Network.host_room()
