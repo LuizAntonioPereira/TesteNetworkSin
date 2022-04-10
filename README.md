@@ -24,3 +24,9 @@ By default only 4 people can connect but you can increase the data by modifying 
 
 # Imagem de exemplo / Imagen de ejemplo / Example image
 ![Captura_de_Tela](https://user-images.githubusercontent.com/19380442/162632478-22a40179-9acf-43cf-8ce6-38a7afd0f9a9.png)
+
+A Esquerda  servidor e direita o client coloque o ip e se conecte.[PT]
+
+Izquierda servidor y derecha el cliente poner la ip y conectarse.[ES]
+
+Left server and right the client put the ip and connect.[EN]
