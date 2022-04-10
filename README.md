@@ -21,3 +21,6 @@ Por defecto solo pueden conectarse 4 personas pero puedes aumentar el dato modif
 You just have to put the IP of your PC and click on Host, then on the other device write the IP and click on Join.[EN]
 
 By default only 4 people can connect but you can increase the data by modifying the const MAX_USERS in the chat.gd script[EN]
+
+# Imagem de exemplo / Imagen de ejemplo / Example image
+![Captura_de_Tela](https://user-images.githubusercontent.com/19380442/162632478-22a40179-9acf-43cf-8ce6-38a7afd0f9a9.png)
